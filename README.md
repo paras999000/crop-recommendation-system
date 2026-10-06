@@ -19,10 +19,17 @@ The web client features real-time data polling, status animations, and dynamic c
 
 ---
 
-### 🛠️ Hardware Prototype Setup
-The sensor node prototype built with an ESP8266 NodeMCU development board, DHT sensor, capacitive soil moisture probe, and rain detection module:
+### 🛠️ Hardware Prototype & Lab Testing
+The sensor node prototype built with an ESP8266 NodeMCU development board, DHT sensor, capacitive soil moisture probe, and rain detection module being tested in the electronics lab:
 
 ![IoT Hardware Prototype Setup](assets/hardware_setup.png)
+
+---
+
+### 🌾 Field Deployment & Farm Testing
+On-site agricultural testing of the portable IoT crop telemetry node deployed in a paddy farm:
+
+![Agricultural Field Deployment](assets/field_testing.png)
 
 ---
 
@@ -145,7 +152,8 @@ No build steps or complex dependencies required!
 crop-recommendation-system/
 ├── assets/
 │   ├── dashboard_preview.png    # Live web UI preview screenshot
-│   ├── hardware_setup.png       # Real IoT hardware prototype photo
+│   ├── hardware_setup.png       # Real IoT hardware prototype & lab photo
+│   ├── field_testing.png        # Agricultural field deployment photo
 │   └── system_architecture.png  # End-to-end data flow and architecture
 ├── sketch_mar23a/
 │   ├── main.kcl                 # Modeling & configuration settings

@@ -1,0 +1,15 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor & IDE files
+.idea/
+*.suo
+*.user
+*.useroscan
+*.sln.docstates
+
+# Temporary build artifacts
+*.tmp
+*.bak
